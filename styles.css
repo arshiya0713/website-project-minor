@@ -1,0 +1,189 @@
+/* Resetting margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font and Background Colors */
+body {
+    font-family: Arial, sans-serif;
+    background: #3e3e3c; /* Dark warm grey */
+    color: #7d6c1f; /* Off-white for text contrast */
+}
+
+/* Navigation */
+nav {
+    background-color: #dcc8b3; /* Dark brown */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #53491b; /* Off-white */
+    text-decoration: none;
+}
+
+
+
+/* Home Section */
+#home {
+    background-image: url('download.jpeg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #f8eed5; /* Ensures text is readable on the background */
+    padding: 6rem 0;
+    min-height: 100vh; /* Ensures the section takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#home button {
+    background-color: #7a8c49; /* Earthy green */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#home button:hover {
+    background-color: #4f5d26; /* Darker olive green */
+}
+
+#home button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Menu Section */
+/* Menu Section */
+#menu {
+    background-color: #d1bfa7; /* Lighter beige */
+    padding: 40px 0;
+}
+
+#menu h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.menu-item {
+    background-color: #f9f4e6; /* Very light beige */
+    border: 1px solid #d0c5b0; /* Slightly darker beige border */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better visual separation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect on hover */
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+
+/* About Section */
+#about {
+    background-color: #4b3621; /* Dark brown */
+    color: #e4e0cf; /* Off-white text */
+    padding: 4rem 0;
+}
+/* About Section */
+
+/* About Section */
+#about {
+    background-image: url('download\ \(2\).jpeg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #f7f7f6; /* Off-white text for readability */
+    padding: 4rem 0;
+    text-align: center;
+    min-height: 100vh; /* Ensures the section takes up the full viewport height */
+    display: flex; /* Aligns content centrally */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about h2 {
+    font-size: 2.5rem; /* Adjust as needed */
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Contact Section */
+#contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2f2a1f; /* Dark brown/olive */
+    color: #e4e0cf; /* Off-white */
+    text-align: center;
+    padding: 1.5rem 0;
+}
